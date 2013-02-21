@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 from pprint import PrettyPrinter
 
-from proauth2.proauth2 import Proauth2,Proauth2Error
-from proauth2.data_stores.mongo_ds import DataStore
+from proauth2 import Proauth2,Proauth2Error
+from data_stores.mongo_ds import DataStore
 
 # pp = PrettyPrinter( indent=4 )
 pp = PrettyPrinter()

@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-from proauth2.proauth2 import Proauth2Error
+from proauth2 import Proauth2Error
 
 good = {
     'applications' : {

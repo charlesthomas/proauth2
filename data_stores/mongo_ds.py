@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 from pymongo import MongoClient
-from proauth2.proauth2 import Proauth2Error
-from proauth2.data_stores.validate import validate
+from proauth2 import Proauth2Error
+from data_stores.validate import validate
 
 class DataStore( object ):
     '''
