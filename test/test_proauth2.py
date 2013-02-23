@@ -4,7 +4,7 @@ from time import sleep
 from pymongo import MongoClient
 
 from proauth2 import Proauth2, Proauth2Error
-from data_stores import mongo_ds
+from proauth2.data_stores import mongo_ds
 
 class TestProauth2():
     def setup( self ):

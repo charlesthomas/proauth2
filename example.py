@@ -2,14 +2,14 @@
 from pprint import PrettyPrinter
 
 from proauth2 import Proauth2,Proauth2Error
-from data_stores.mongo_ds import DataStore
+from proauth2.data_stores.mongo_ds import DataStore
 
 # pp = PrettyPrinter( indent=4 )
 pp = PrettyPrinter()
 
 #The DataStore object is passed on initialization of the Proauth2 object
 #Therefore, the DataStore must be initialized first
-data_store = DataStore( database='proauth2', host='localhost', port=27017,
+data_store = DataStore( database='proauth2-test', host='localhost', port=27017,
                         user=None, pwd=None )
 
 #Initialize Proauth2 object, passing DataStore object
