@@ -11,7 +11,7 @@ setup(
     version = VERSION,
     author = 'Charles Thomas',
     author_email = 'ch@rlesthom.as',
-    packages = [ '%s' % NAME, ],
+    packages = [ 'proauth2', 'proauth2.data_stores' ],
     url = 'http://code.cha.rlesthom.as/%s' % NAME,
     license = 'MIT',
     description = DESCRIPTION,
