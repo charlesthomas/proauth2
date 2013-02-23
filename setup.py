@@ -1,11 +1,10 @@
 #!/usr/bin/env python
 from distutils.core import setup
-from os.path import dirname, join
 
 NAME = 'proauth2'
 DESCRIPTION = 'An OAuth2 Provider Module for Python'
-VERSION = open( join( dirname( __file__ ), 'VERSION' ) ).read()
-LONG_DESC = open( join( dirname( __file__ ), 'README.rst' ) ).read()
+VERSION = open( 'VERSION' ).read().strip()
+LONG_DESC = open( 'README' ).read()
 
 setup(
     name = NAME,
@@ -14,10 +13,7 @@ setup(
     author_email = 'ch@rlesthom.as',
     packages = [ '%s' % NAME, ],
     url = 'http://code.cha.rlesthom.as/%s' % NAME,
-    license = 'LICENSE.txt',
+    license = 'MIT',
     description = DESCRIPTION,
     long_description = LONG_DESC,
-    install_requires = [
-        'pymongo == 2.4.1',
-    ],
 )
