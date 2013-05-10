@@ -47,7 +47,7 @@ Tests
 I only wrote a single, end-to-end test; it passes. It was implemented with **nosetests**, so you will need to install **nose** to run it. The test can be found in tests/test\_proauth2.py
 
 client\_id / client\_secret authentication methods
-------------------------------------------------
+--------------------------------------------------
 As I understand the spec, there are multiple ways to authenticate the client\_id / client\_secret pair. Currently, only direct comparison of the stored and sent client\_secrets has been implemented, however adding additional methods should be as simple as writing a function in proauth2/auth\_methods.py and adding the function to the allowed\_methods dictionary.
 
 What the hell is a DataStore?
