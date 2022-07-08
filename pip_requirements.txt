@@ -4,6 +4,6 @@ ipdbplugin==1.2
 ipython==0.13.1
 motor==0.1
 nose==1.2.1
-pymongo==2.5
+pymongo==2.5.2
 tornado==3.0.1
 wsgiref==0.1.2
